@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HSE Engineer Application</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Malgun Gothic',sans-serif;
+    background:#f4f7fb;
+    padding:50px 20px;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+}
+
+.application-box{
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 3px 15px rgba(0,0,0,0.1);
+}
+
+h1{
+    color:#0d274d;
+    margin-bottom:15px;
+}
+
+.subtitle{
+    margin-bottom:30px;
+    color:#666;
+}
+
+label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+    color:#0d274d;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    margin-bottom:20px;
+    font-size:1rem;
+}
+
+textarea{
+    resize:vertical;
+}
+
+button{
+    background:#0078d7;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:8px;
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#005fa3;
+}
+
+.back-btn{
+    display:inline-block;
+    margin-top:20px;
+    text-decoration:none;
+    color:#0d274d;
+    font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="application-box">
+
+<h1>HSE ENGINEER APPLICATION</h1>
+
+<p class="subtitle">
+Please complete the application form below and upload your latest resume.
+</p>
+
+<form>
+
+<label>Full Name *</label>
+<input type="text" required>
+
+<label>Nationality *</label>
+<input type="text" required>
+
+<label>Current Country *</label>
+<input type="text" required>
+
+<label>Email Address *</label>
+<input type="email" required>
+
+<label>Phone Number *</label>
+<input type="text" required>
+
+<label>Date of Birth</label>
+<input type="date">
+
+<label>Years of Experience *</label>
+<input type="number" min="0" required>
+
+<label>Current Employer</label>
+<input type="text">
+
+<label>Current Position</label>
+<input type="text">
+
+<label>Available Start Date</label>
+<input type="date">
+
+<label>Resume / CV (PDF or DOCX) *</label>
+<input type="file" accept=".pdf,.doc,.docx" required>
+
+<label>Additional Comments</label>
+<textarea rows="6"></textarea>
+
+<button type="submit">
+Submit Application
+</button>
+
+</form>
+
+<a href="index.html" class="back-btn">
+← Back to Main Page
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

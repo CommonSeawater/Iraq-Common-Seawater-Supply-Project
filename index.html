@@ -55,16 +55,22 @@ header{
 
 .btn{
     display:inline-block;
-    padding:15px 30px;
+    padding:12px 25px;
     background:#0078d7;
     color:white;
     text-decoration:none;
     border-radius:8px;
     font-weight:bold;
+    min-width:140px;
 }
 
 .btn:hover{
     background:#005fa3;
+}
+
+.card .btn{
+    margin-top:auto;
+    align-self:center;
 }
 
 nav{
@@ -137,11 +143,19 @@ section{
     border-radius:12px;
     box-shadow:0 3px 15px rgba(0,0,0,0.1);
     text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    min-height:300px;
 }
 
 .card h3{
     color:#0d274d;
     margin-bottom:10px;
+}
+
+.card p{
+    flex-grow:1;
 }
 
 .gallery{

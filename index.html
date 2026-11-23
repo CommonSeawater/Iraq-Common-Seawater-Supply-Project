@@ -299,6 +299,49 @@ footer{
     height:50px !important;
 }
 
+.project-partners{
+    background:#f5f5f5;
+    padding:20px 40px;
+
+    margin-top:20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.project-partners .left-logo img{
+    height:60px;
+}
+
+.project-partners .right-logos{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.project-partners .right-logos img{
+    height:60px;
+    object-fit:contain;
+}
+
+@media(max-width:768px){
+
+.project-partners{
+    flex-direction:column;
+    gap:20px;
+}
+
+.project-partners .left-logo img{
+    height:45px;
+}
+
+.project-partners .right-logos img{
+    height:45px;
+}
+
+}
+
 </style>
 </head>
 
@@ -386,6 +429,20 @@ A facility that treats seawater through physical and chemical processes to produ
      ">
 
 </div>
+
+</div>
+
+<div class="project-partners">
+
+    <div class="left-logo">
+        <img src="hyundai-logo.jpg" alt="Hyundai E&C">
+    </div>
+
+    <div class="right-logos">
+        <img src="qatarenergy-logo.jpg" alt="QatarEnergy">
+        <img src="totalenergies-logo.jpg" alt="TotalEnergies">
+        <img src="boc-logo.jpg" alt="Basra Oil Company">
+    </div>
 
 </div>
 
@@ -604,20 +661,6 @@ Submit Inquiry
 </div>
 
 </section>
-
-<div class="partner-logos-footer">
-
-<img src="hyundai-logo.jpg"
-     alt="Hyundai E&C"
-     class="hyundai-logo">
-
-<img src="qatarenergy-logo.jpg" alt="QatarEnergy">
-
-<img src="totalenergies-logo.jpg" alt="TotalEnergies">
-
-<img src="boc-logo.jpg" alt="Basra Oil Company">
-
-</div>
 
 <footer>
 <p>© 2026 Hyundai Engineering & Construction | Iraq Common Seawater Supply Project</p>
